@@ -17,17 +17,8 @@ public class MainActivity extends Activity {
 		pptViewer = (PPTViewer) findViewById(R.id.pptviewer);
 		// This is the demo path make sure the file exists
 		// you can change it
-
-		pptViewer.setNext_img(R.drawable.next).setPrev_img(R.drawable.prev)
-				.setSettings_img(R.drawable.settings)
-				.setZoomin_img(R.drawable.zoomin)
-				.setZoomout_img(R.drawable.zoomout);
 		String path = Environment.getExternalStorageDirectory().getPath()
 				+ "/Download/ssadagopan.ppt";
-		pptViewer.setNext_img(R.drawable.next).setPrev_img(R.drawable.prev)
-				.setSettings_img(R.drawable.settings)
-				.setZoomin_img(R.drawable.zoomin)
-				.setZoomout_img(R.drawable.zoomout);
 		pptViewer.setNext_img(R.drawable.next).setPrev_img(R.drawable.prev)
 				.setSettings_img(R.drawable.settings)
 				.setZoomin_img(R.drawable.zoomin)
