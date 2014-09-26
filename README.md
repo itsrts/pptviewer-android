@@ -19,7 +19,7 @@ All you need to do is:
 3. You must be having an Activity and an XML file for it.
 
 4. Now open the layout XML file and add the following line of code in it.<br/>
-      < com.itsrts.pptviewer<br/>
+      < com.itsrts.pptviewer.PPTViewer<br/>
       android:id="@+id/pptviewer"<br/>
       android:width="match_parent"<br/>
       android:height="match_parent"<br/>
@@ -27,7 +27,12 @@ All you need to do is:
 
 5. Goto the main activity file which will be inflating the above XML and after the "setContentView", add:<br/>
       PPTViewer pptViewer = (PPTViewer) findViewById(R.id.pptviewer);<br/>
-      pptViewer.loadPPT(path);<br/>
+      pptViewer.setNext_img(R.drawable.next)<br/>
+                  .setPrev_img(R.drawable.prev)<br/>
+	            .setSettings_img(R.drawable.settings)<br/>
+			.setZoomin_img(R.drawable.zoomin)<br/>
+			.setZoomout_img(R.drawable.zoomout);<br/>
+      pptViewer.loadPPT(activity, path);<br/>
       // path is a String having the location of the ppt file to be loaded.<br/>
 
 The library is fully customizable with the option to change the viewer the way you want.
