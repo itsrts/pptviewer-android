@@ -25,7 +25,7 @@ All you need to do is:
       android:height="match_parent"
       />
 
-5. Goto the main activity file which will be inflating the above XML and after the "setContentView", add:
+5. Goto the main activity file which will be inflating the above XML and after the "setContentView", add:<br/>
       PPTViewer pptViewer = (PPTViewer) findViewById(R.id.pptviewer);
       pptViewer.loadPPT(path);
       // path is a String having the location of the ppt file to be loaded.
