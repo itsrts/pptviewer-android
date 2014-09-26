@@ -19,7 +19,7 @@ All you need to do is:
 3. You must be having an Activity and an XML file for it.
 
 4. Now open the layout XML file and add the following line of code in it.
-      &lt;com.itsrts.pptviewer<br/>
+      < com.itsrts.pptviewer<br/>
       android:id="@+id/pptviewer"<br/>
       android:width="match_parent"<br/>
       android:height="match_parent"<br/>
