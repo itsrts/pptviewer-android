@@ -15,8 +15,6 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		pptViewer = (PPTViewer) findViewById(R.id.pptviewer);
-		// This is the demo path make sure the file exists
-		// you can change it
 		String path = Environment.getExternalStorageDirectory().getPath()
 				+ "/Download/ssadagopan.ppt";
 		pptViewer.setNext_img(R.drawable.next).setPrev_img(R.drawable.prev)
