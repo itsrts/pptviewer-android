@@ -1,6 +1,7 @@
 pptviewer
 =========
 
+NOTE : I have discontinued support for this project. It is provided as it basis.
 A ppt viewer library, which can be easily used in any existing android application.
 
 Hello folks,
